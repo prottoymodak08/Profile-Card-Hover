@@ -56,9 +56,9 @@ p {
 .card {
     inline-size: 50ch;
     border-radius: 1.5em;
-    padding-block-start: 14em;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
+    padding-block-start: 12em;
     overflow: hidden;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
 }
 
 .card:nth-child(1) {
@@ -74,12 +74,12 @@ p {
 .card:nth-child(3) {
     background: url(Images/Noah-williams.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 .card:nth-child(4) {
     background: url(Images/Liam-carter.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .content {
@@ -117,7 +117,7 @@ p {
 
 @media (hover){
     .card {
-        transition: transform 150ms ease;
+        transition: all 150ms ease;
     }
 
     .card:hover {
